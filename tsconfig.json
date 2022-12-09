@@ -1,0 +1,14 @@
+{
+    "include": ["packages/**/*"],
+    "exclude": ["node_modules", "node_modules/**/*", "../../node_modules"],
+    "compilerOptions": {
+        "module": "esnext",
+        "target": "ES2022",
+        "esModuleInterop": true,
+        "baseUrl": "./packages",
+        "declaration": true,
+        "resolveJsonModule": false,
+        "moduleResolution": "node",
+        "skipLibCheck": true
+    }
+}
