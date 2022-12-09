@@ -11,6 +11,7 @@
     }
  */
 const a = 1
+const b = a + 1
 export const getRemarkHtmlByKeyword = (html: string, keyword: string, matchClassName = 'red', startIndex = 0): {
     match: boolean,
     html: string,
