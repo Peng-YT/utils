@@ -4,7 +4,11 @@
  * @param keyword 
  * @param matchClassName 
  * @param startIndex 
- * @returns 
+ * @returns {
+        match: string,
+        html: string,
+        length: number
+    }
  */
 export const getRemarkHtmlByKeyword = (html: string, keyword: string, matchClassName = 'red', startIndex = 0): {
     match: boolean,
