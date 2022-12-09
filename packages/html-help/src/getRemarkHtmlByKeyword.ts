@@ -124,9 +124,5 @@ export const getRemarkHtmlByKeyword = (html: string, keyword: string, matchClass
         length: 0
     }
 }
-// b1
 // m1
-// b2
-// b3
 // m2
-// b4
