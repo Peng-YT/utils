@@ -1,5 +1,5 @@
 {
-  "name": "html-help",
+  "name": "@ppeng/html-help",
   "version": "1.0.0",
   "description": "html相关工具函数",
   "author": "Peng-YT <1305684595@qq.com>",
@@ -16,5 +16,10 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
     "build": "tsc"
+  },
+  "gitHead": "edd5b2d068f68fc533ba4dbea49209375a4b0a97",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   }
 }
